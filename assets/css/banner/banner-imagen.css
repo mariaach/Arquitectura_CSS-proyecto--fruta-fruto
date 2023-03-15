@@ -1,7 +1,5 @@
 .banner__imagen {
-    background-image: url('/assets/img/banner.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: calc(100vh- 72px);
+    background: url('../../img/banner.png') no-repeat center /cover;
+    width: 100%;
+    height: calc(100vh - 72px);
 }
