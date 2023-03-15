@@ -20,6 +20,22 @@
     <link rel="stylesheet" href="./assets/css/sobre/sobre.css">
     <link rel="stylesheet" href="./assets/css/sobre/sobre-titulo.css">
     <link rel="stylesheet" href="./assets/css/sobre/sobre-descripcion.css">
+    <link rel="stylesheet" href="./assets/css/recetas.css">
+    <link rel="stylesheet" href="./assets/css/receta/receta-boton.css">
+    <link rel="stylesheet" href="./assets/css/receta/receta-contenido.css">
+    <link rel="stylesheet" href="./assets/css/receta/receta-descripcion.css">
+    <link rel="stylesheet" href="./assets/css/receta/receta-imagen.css">
+    <link rel="stylesheet" href="./assets/css/receta/receta-titulo.css">
+    <link rel="stylesheet" href="./assets/css/receta/receta.css">
+    <link rel="stylesheet" href="./assets/css/quienes/quienes.css">
+    <link rel="stylesheet" href="./assets/css/quienes/quienes-titulo.css">
+    <link rel="stylesheet" href="./assets/css/quienes/quienes-descripcion.css">
+    <link rel="stylesheet" href="./assets/css/personas.css">
+    <link rel="stylesheet" href="./assets/css/persona/persona-imagen.css">
+    <link rel="stylesheet" href="./assets/css/persona/persona-nombre.css">
+    <link rel="stylesheet" href="./assets/css/persona/persona-funcion.css">
+    <link rel="stylesheet" href="./assets/css/persona/persona.css">
+
 
     <body>
         <header class="cabecera">
@@ -42,7 +58,8 @@
             </nav>
         </header>
         <section class="banner">
-            <img class="banner__imagen" src="./assets/img/banner.png" alt="banner">
+            <div class="baner__imagen"></div>
+            <!-- <img class="banner__imagen" src="./assets/img/banner.png" alt="banner">-->
             <h2 class="banner__titulo">Reaproveche mejor los alimentos</h2>
         </section>
         <section class="sobre">
@@ -93,11 +110,35 @@
                 </div>
             </div>
             <div class="receta">
-                <img src="./assets/img/recetas/beterrabas-asadas.jpg" alt="" class="receta__imagen">
+                <img src="./assets/img/recetas/beterrabas-asadas.jpg" alt="Remolachas asadas" class="receta__imagen">
                 <div class="receta__contenido">
                     <h4 class="receta__titulo">Remolachas asadas</h4>
                     <p class="receta__descripcion">Receta refrescante llena de vitaminas para tu desayuno</p>
                     <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Aula 4 -->
+
+        <section class="quienes">
+            <h3 class="quienes__titulo">Quienes somos</h3>
+            <p class="quienes__descripcion">Conozca a la comunidad detrás de la iniciativa</p>
+            <div class="personas">
+                <div class="persona">
+                    <div class="persona__imagen persona__imagen--roberta"></div>
+                    <span class="persona__nombre">Roberta</span>
+                    <span class="persona__funcion">Contenido</span>
+                </div>
+                <div class="persona">
+                    <div class="persona__imagen persona__imagen--marcela"></div>
+                    <span class="persona__nombre">Marcela</span>
+                    <span class="persona__funcion">Chef de cocina</span>
+                </div>
+                <div class="persona">
+                    <div class="persona__imagen persona__imagen--andreia"></div>
+                    <span class="persona__nombre">Andréia</span>
+                    <span class="persona__funcion">Pequeña Productora</span>
                 </div>
             </div>
         </section>
